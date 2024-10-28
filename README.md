@@ -1,6 +1,6 @@
 # Simple Bar Example
 
-![simple-bar](https://github.com/user-attachments/assets/a306c864-56b7-44c4-8820-81f424f32b9b)
+![simple-bar](https://github.com/user-attachments/assets/593bb5df-b0e6-4394-b212-d4dff58c1086)
 
 A simple bar for Hyprland using
 
