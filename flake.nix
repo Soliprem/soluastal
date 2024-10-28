@@ -13,7 +13,7 @@
   in {
     packages.${system}.default = astal.lib.mkLuaPackage {
       inherit pkgs;
-      src = /home/soliprem/.local/src/libastal-bar; # should contain init.lua
+      src = /home/soliprem/.local/src/soluastal; # should contain init.lua
 
       # add extra glib packages or binaries
       extraPackages = [

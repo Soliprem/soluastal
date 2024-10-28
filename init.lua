@@ -20,9 +20,7 @@ App:start({
 	main = function()
 		for _, mon in pairs(App.monitors) do
 			Bar(mon)
-		end
-		for _, mon in pairs(App.monitors) do
-			Notifications(mon)
+			-- Notifications(mon)
 		end
 	end,
 })
