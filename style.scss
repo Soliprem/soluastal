@@ -10,14 +10,13 @@ window.Notifications {
   font-size: 1.1em;
   font-weight: bold;
   border: none;
-  border-radius: $radius;
   box-shadow: none;
   .Notification Button {
     transition: 200ms;
     padding: 0 2px;
     margin: 2px;
     border-radius: $radius;
-    border: 1pt solid transparent;
+    border: 1pt solid $accent;
   }
 }
 
