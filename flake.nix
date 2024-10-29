@@ -11,6 +11,7 @@
     system = "x86_64-linux";
     pkgs = nixpkgs.legacyPackages.${system};
   in {
+    pakcages.${system}.io = astal.packages.${system}.io;
     packages.${system}.default = astal.lib.mkLuaPackage {
       inherit pkgs;
       src = /home/soliprem/.local/src/soluastal; # should contain init.lua
