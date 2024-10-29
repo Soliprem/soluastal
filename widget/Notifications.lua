@@ -5,11 +5,11 @@ local Notifd = require("lgi").require("AstalNotifd")
 local popup_timeout = 3000
 
 local function ternary(condition, if_true, if_false)
-	if condition then
-		return if_true
-	else
-		return if_false
-	end
+    if condition then
+        return if_true
+    else
+        return if_false
+    end
 end
 
 
