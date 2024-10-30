@@ -19,6 +19,7 @@ return function(gdkmonitor)
 
         -- keep track of widgets
         widgets[id] = Widget.Window({
+            margin = 8,
             class_name = "Notifications",
             anchor = WindowAnchor.TOP,
             Widget.Button({
