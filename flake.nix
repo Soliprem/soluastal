@@ -27,6 +27,5 @@
         pkgs.dart-sass
       ];
     };
-    packages.${system}.io = astal.packages.${system}.io;
   };
 }
